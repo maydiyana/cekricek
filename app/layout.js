@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 const gabarito = Gabarito({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'DXL | Film',
+  title: 'WIBU | LIST',
   description: 'Website List Film Indonesia',
 }
 
