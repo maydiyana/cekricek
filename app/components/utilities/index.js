@@ -8,7 +8,7 @@ const Navbar = () => {
         
     <header className="bg-indigo-300 rounded">
     <div className="flex md:flex-row flex-col justify-between p-3 gap-2">
-        <Link className="font-bold text-2xl text-slate-900 font-mono text-white " href="/">DXL FILM</Link>
+        <Link className="font-bold text-2xl text-slate-900 font-mono text-white " href="/">WIBU LIST</Link>
         <SearchInput />
     </div>
     </header>
