@@ -69,7 +69,6 @@ img:hover{
   .footer {
     position: relative;
     width: 100%;
-    background: #6091eb;
     min-height: 100px;
     padding: 5px 20px;
     display: flex;
