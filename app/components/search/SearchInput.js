@@ -23,7 +23,7 @@ const SearchInput = () => {
     return(
         <div class="search-box">
     <button class="btn-search pb-2"><ion-icon name="search-outline"  onClick={handleSearch}></ion-icon></button>
-    <input type="text" class="input-search" placeholder="Type to Search..." ref={searchRef} onKeyDown={handleSearch}/>
+    <input type="text" class="input-search" placeholder="Search..." ref={searchRef} onKeyDown={handleSearch}/>
   </div>
 
     )
