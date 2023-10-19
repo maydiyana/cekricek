@@ -14,6 +14,7 @@ const Footer = () => {
         <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/abmaydiyana/">
             <ion-icon name="logo-instagram"></ion-icon>
           </a></li>
+        
       </ul>
       
       <p>2023 A.B Maydiyana | All Rights Reserved</p>
