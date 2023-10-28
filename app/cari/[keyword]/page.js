@@ -4,7 +4,7 @@ import Header from "@/app/components/AnimeList/Header"
 
 export default async function Page({ params }) {
 const { keyword } = params
-   const decodedKeyword = decodeURI(keyword)
+const decodedKeyword = decodeURI(keyword)
 const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/anime?q=${decodedKeyword}`)
    const searchAnime = await response.json()
 

@@ -1,10 +1,10 @@
 import Header from "../components/AnimeList/Header"
 import AnimeList from "../components/AnimeList"
+import { getAnimeResponse } from "../libs/api"
 
 export default async function Home() {
 
-const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime`)
-   const topAnime = await response.json()
+const topAnime = await getAnimeResponse("top/anime")
 
   return (
     <section>

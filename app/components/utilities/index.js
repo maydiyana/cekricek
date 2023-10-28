@@ -9,7 +9,7 @@ const { default: Link } = require("next/link")
 const Navbar = () => {
     return(
         
-    <header className="bg-indigo-300 rounded ">
+    <header className="bg-indigo-600 rounded ">
     <div className="flex md:flex-row justify-between p-3 gap-2">
         <Link className="font-bold text-2xl text-slate-900 font-mono text-white " href="/">WIBU LIST</Link>
         <Providers><ThemeChanger/></Providers>
