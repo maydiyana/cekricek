@@ -3,7 +3,7 @@ import YouTube from "react-youtube"
 
 const VidioPlayer = ({youtubeId}) => {
     const option = {
-        width: "400",
+        width: "100%",
         height: "200"
     }
 
